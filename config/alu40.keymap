@@ -63,5 +63,32 @@
 &trans  &trans     &trans          &trans        &trans        &trans  &trans   &trans  &trans  &trans  &trans  &trans
             >;
         };
+
+        lower_win {
+            bindings = <
+&trans  &kp TAB    &kp TAB         &kp TAB       &kp TAB       &kp TAB     &none   &kp N7        &kp N8        &kp N9        &kp N0  &trans
+&trans  &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LEFT_ALT  &kp ESCAPE  &none   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none   &kp DELETE
+&trans  &none      &none           &none         &none         &none       &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none   &trans
+&trans  &trans     &trans          &trans        &trans        &trans      &trans  &mo 4         &trans        &trans        &trans  &trans
+            >;
+        };
+
+        raise_win {
+            bindings = <
+&trans  &kp GRAVE       &kp TILDE         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
+&trans  &kp UNDERSCORE  &kp MINUS         &kp PLUS              &kp EQUAL              &kp PIPE       &none   &kp LEFT_ALT          &kp LEFT_GUI           &kp LEFT_SHIFT  &kp LCTRL        &kp DEL
+&trans  &kp LESS_THAN   &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &none   &none                 &none                  &none           &none            &trans
+&trans  &trans          &trans            &trans                &mo 4                  &trans         &trans  &trans                &trans                 &trans          &trans           &trans
+            >;
+        };
+
+        fn_keys {
+            bindings = <
+&trans  &none      &none           &none         &none         &none   &kp F12  &kp F7  &kp F8  &kp F9  &none   &trans
+&trans  &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LEFT_ALT  &none   &kp F11  &kp F4  &kp F5  &kp F6  &none   &kp DEL
+&trans  &none      &none           &none         &none         &none   &kp F10  &kp F1  &kp F2  &kp F3  &none   &trans
+&trans  &trans     &trans          &trans        &trans        &trans  &trans   &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
