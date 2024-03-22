@@ -40,7 +40,7 @@
         raise {
             bindings = <
 &trans  &kp GRAVE       &kp TILDE         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-&trans  &kp UNDERSCORE  &kp MINUS         &kp PLUS              &kp EQUAL              &kp PIPE       &none   &sk LEFT_GUI          &sk LEFT_ALT           &sk LEFT_SHIFT  &sk LCTRL        &kp DEL
+&trans  &kp UNDERSCORE  &kp MINUS         &kp PLUS              &kp EQUAL              &kp PIPE       &none   &kp LEFT_GUI          &kp LEFT_ALT           &kp LEFT_SHIFT  &kp LCTRL        &kp DEL
 &trans  &kp LESS_THAN   &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH      &none   &none                 &none                  &none           &none            &trans
 &trans  &trans          &trans            &trans                &mo 4                  &trans         &trans  &trans                &trans                 &trans          &trans           &trans
             >;
